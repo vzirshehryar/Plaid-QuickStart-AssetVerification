@@ -1,0 +1,20 @@
+body{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  input{
+    width: 300px;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+  button{
+    width: fit-content;
+  }
+}
